@@ -2,12 +2,34 @@ from reportlab.pdfgen import canvas
 from reportlab.lib import pdfencrypt
 import random
 
-amigos = ["Martin Santos", "Nohora Ayala", "Juan Martin Santos", "Angelica Yepes", "Silvia Santos", "Tia Rochis",
-          "Tia Alicia", "Ciro Ayala", "Cristina Mojica", "Jennifer Ayala", "David Ayala"]
+amigos = [
+    "Tia Ceci",
+    "Tia Luisa",
+    "Ceci Neisa",
+    "Tia Yaya",
+    "Tia Alba",
+    "Tio Alejandro",
+    "Tia Toya",
+    "Tia Lola",
+    "Avelino",
+    "Hagee",
+    "Paula",
+    "Carlos",
+    "Savi",
+    "Isa",
+    "Diego",
+    "Maja",
+    "Fabiana",
+    "Tia Nohe",
+    "Don Pedro",
+    "Jorge"
+]
 
-amigoNavidenio = {"Martin Santos": "", "Nohora Ayala": "", "Juan Martin Santos": "", "Angelica Yepes": "",
-                  "Silvia Santos": "", "Tia Rochis": "", "Tia Alicia": "", "Ciro Ayala": "", "Cristina Mojica": "",
-                  "Jennifer Ayala": "", "David Ayala": ""}
+amigoNavidenio = {"Tia Ceci": "", "Tia Luisa": "", "Ceci Neisa": "",
+                  "Tia Yaya": "", "Tia Alba": "", "Tio Alejandro": "",
+                  "Tia Toya": "", "Tia Lola": "", "Avelino": "", "Hagee": "",
+                  "Paula": "", "Carlos": "", "Savi": "", "Isa": "", "Diego": "",
+                  "Maja": "", "Fabiana": "", "Tia Nohe": "", "Don Pedro": "", "Jorge": ""}
 
 contrasenias = []
 
